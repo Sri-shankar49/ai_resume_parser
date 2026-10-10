@@ -40,7 +40,7 @@
 
 FROM ghcr.io/astral-sh/uv:python3.11-bookworm-slim
 
-RUN echo "AI_RESUME_PARSER_BACKEND_DOCKERFILE"
+RUN echo "AI_RESUME_PARSER_BACKEND_DOCKERFILE" 
 
 WORKDIR /app
 
