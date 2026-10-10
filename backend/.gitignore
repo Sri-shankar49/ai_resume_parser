@@ -1,0 +1,29 @@
+# .env
+# .venv/
+# __pycache__/
+# chroma_db/
+
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local databases and uploaded resumes
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+chroma_db/
+data/
+
+# Frontend
+node_modules/
+dist/
