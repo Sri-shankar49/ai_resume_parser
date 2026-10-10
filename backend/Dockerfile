@@ -40,6 +40,8 @@
 
 FROM ghcr.io/astral-sh/uv:python3.11-bookworm-slim
 
+RUN echo "AI_RESUME_PARSER_BACKEND_DOCKERFILE"
+
 WORKDIR /app
 
 ENV UV_COMPILE_BYTECODE=1
